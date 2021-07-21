@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    margin-top: 5vh;
+}
+
+.profile-card{
+    width: 350px;
+    box-shadow: 0 0 10px;
+    margin: auto;
+}
+
+.profile-card .img-cover{
+    background-image: url(ww.jpg);
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-card .img-container{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: rgb(27, 151, 223);
+    margin: auto;
+    margin-top: -50px;
+    padding: 5px;
+}
+
+.profile-card .img-container .img{
+    background-image: url(me.JPG);
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-card .details h1, h3{
+    text-align: center;
+}
+
+.profile-card .details p{
+    padding: 10px;
+}
+
+.btn{
+    text-align: center;
+    
+}
+
+.btn .button{
+    background: rgb(0, 153, 255);;
+    border: none;
+    border: 1px solid #0009;
+    padding: 3px 6px;
+    font-size: 16px;
+    color: #fff;
+    transition: all 0.3s ease-out;
+    outline: none;
+}
+
+.profile-card .icons{
+    text-align: center;
+}
+
+.profile-card .icons i{
+    font-size: 30px;
+    padding: 10px 10px;
+    color: rgb(0, 153, 255);
+    transition: all 0.3s ease-out;
+}
+
+.profile-card .icons i:hover{
+    color: rgb(247, 144, 26);
+}
